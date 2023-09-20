@@ -1,7 +1,8 @@
-import injectPositive, {
+import {
     allRGB,
     bookEndList,
     countShortWords,
+    injectPositive,
     removeDollars,
     shoutIfExclaiming,
     stringsToIntegers,
