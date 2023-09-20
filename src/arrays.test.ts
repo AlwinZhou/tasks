@@ -1,13 +1,12 @@
-import {
+import injectPositive, {
     allRGB,
     bookEndList,
     countShortWords,
-    injectPositive,
-    makeMath,
     removeDollars,
     shoutIfExclaiming,
     stringsToIntegers,
-    tripleNumbers
+    tripleNumbers,
+    makeMath
 } from "./arrays";
 
 describe("Testing the array functions", () => {
