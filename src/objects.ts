@@ -10,7 +10,16 @@ export function makeBlankQuestion(
     name: string,
     type: QuestionType
 ): Question {
-    return {};
+    return {
+        id: id,
+        name: name,
+        type: type,
+        body: "",
+        expected: "",
+        options: [],
+        points: 1,
+        published: false
+    };
 }
 
 /**
@@ -21,7 +30,15 @@ export function makeBlankQuestion(
  * HINT: Look up the `trim` and `toLowerCase` functions.
  */
 export function isCorrect(question: Question, answer: string): boolean {
-    return false;
+    let expect = question.expected;
+    expect = expect.trim();
+    expect = expect.toLocaleLowerCase();
+    answer = answer.trim().toLocaleLowerCase();
+    if (expect === answer) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 /**
@@ -31,7 +48,11 @@ export function isCorrect(question: Question, answer: string): boolean {
  * be exactly one of the options.
  */
 export function isValid(question: Question, answer: string): boolean {
-    return false;
+    if (question.type === "short_answer_question") {
+        return true;
+    } else if (question.type === "multiple_choice_question") {
+        return question.options.includes(answer);
+    }
 }
 
 /**
@@ -41,7 +62,12 @@ export function isValid(question: Question, answer: string): boolean {
  * name "My First Question" would become "9: My First Q".
  */
 export function toShortForm(question: Question): string {
-    return "";
+    const id = question.id;
+    let name = question.name;
+    if (name.length > 10) {
+        name = name.substring(0, 10);
+    }
+    return `${id}: ${name}`;
 }
 
 /**
@@ -62,7 +88,14 @@ export function toShortForm(question: Question): string {
  * Check the unit tests for more examples of what this looks like!
  */
 export function toMarkdown(question: Question): string {
-    return "";
+    const print = `# ${question.name}\n${question.body}`;
+    if (question.type === "multiple_choice_question") {
+        const print2 = question.options
+            .map((options) => `- ${options}`)
+            .join("\n");
+        return `# ${question.name}\n${question.body}\n${print2}`;
+    }
+    return print;
 }
 
 /**
@@ -70,6 +103,8 @@ export function toMarkdown(question: Question): string {
  * `newName`.
  */
 export function renameQuestion(question: Question, newName: string): Question {
+    question.name = newName;
+    // console.log(question);
     return question;
 }
 
@@ -79,6 +114,7 @@ export function renameQuestion(question: Question, newName: string): Question {
  * published; if it was published, now it should be not published.
  */
 export function publishQuestion(question: Question): Question {
+    question.published = !question.published;
     return question;
 }
 
@@ -89,9 +125,14 @@ export function publishQuestion(question: Question): Question {
  * The `published` field should be reset to false.
  */
 export function duplicateQuestion(id: number, oldQuestion: Question): Question {
+    oldQuestion = {
+        ...oldQuestion, // Copy over existing properties
+        name: `Copy of ${oldQuestion.name}`, // Modify the name
+        published: false, // Reset published to false
+        id: id
+    };
     return oldQuestion;
 }
-
 /**
  * Return a new version of the given question, with the `newOption` added to
  * the list of existing `options`. Remember that the new Question MUST have
@@ -100,6 +141,7 @@ export function duplicateQuestion(id: number, oldQuestion: Question): Question {
  * Check out the subsection about "Nested Fields" for more information.
  */
 export function addOption(question: Question, newOption: string): Question {
+    question = { ...question, options: [...question.options, newOption] };
     return question;
 }
 
@@ -117,5 +159,14 @@ export function mergeQuestion(
     contentQuestion: Question,
     { points }: { points: number }
 ): Question {
-    return contentQuestion;
+    return {
+        body: contentQuestion.body,
+        type: contentQuestion.type,
+        options: contentQuestion.options,
+        expected: contentQuestion.expected,
+        points: points,
+        published: false,
+        id: id,
+        name: name
+    };
 }
