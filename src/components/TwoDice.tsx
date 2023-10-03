@@ -37,9 +37,8 @@ export function TwoDice(): JSX.Element {
     return (
         <div>
             <Button onClick={left}>Roll Left</Button>
-            <span data-testid="left-die">{leftRoll}</span>
-            {"  "}
-            {winner} {"  "}
+            <span data-testid="left-die">{leftRoll}</span>{" "}
+            {check(leftRoll, rightRoll)}{" "}
             <Button onClick={right}>Roll Right</Button>
             <span data-testid="right-die">{rightRoll}</span>
         </div>
