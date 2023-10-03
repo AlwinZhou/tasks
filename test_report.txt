@@ -96,26 +96,39 @@ FAIL src/objects.test.ts
 
       at Object.<anonymous> (src/objects.test.ts:235:55)
 
+PASS src/components/StartAttempt.test.tsx
+PASS src/components/TwoDice.test.tsx
 PASS src/HtmlCss.test.tsx
 PASS src/functions.test.ts
+PASS src/components/ChangeType.test.tsx
+PASS src/components/CycleHoliday.test.tsx
+PASS src/components/Counter.test.tsx
+PASS src/components/RevealAnswer.test.tsx
 PASS src/App.test.tsx
-----------------|---------|----------|---------|---------|-------------------
-File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
-----------------|---------|----------|---------|---------|-------------------
-All files       |   99.41 |    94.73 |     100 |   99.38 |                   
- src            |   99.41 |    94.73 |     100 |   99.38 |                   
-  App.tsx       |     100 |      100 |     100 |     100 |                   
-  arrays.ts     |     100 |      100 |     100 |     100 |                   
-  functions.ts  |     100 |      100 |     100 |     100 |                   
-  nested.ts     |     100 |    89.47 |     100 |     100 | 210,272           
-  objects.ts    |   96.96 |       90 |     100 |   96.96 | 56                
- src/interfaces |       0 |        0 |       0 |       0 |                   
-  answer.ts     |       0 |        0 |       0 |       0 |                   
-  question.ts   |       0 |        0 |       0 |       0 |                   
-----------------|---------|----------|---------|---------|-------------------
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   99.09 |    94.66 |     100 |   99.05 |                   
+ src               |   99.41 |    94.73 |     100 |   99.38 |                   
+  App.tsx          |     100 |      100 |     100 |     100 |                   
+  arrays.ts        |     100 |      100 |     100 |     100 |                   
+  functions.ts     |     100 |      100 |     100 |     100 |                   
+  nested.ts        |     100 |    89.47 |     100 |     100 | 210,272           
+  objects.ts       |   96.96 |       90 |     100 |   96.96 | 56                
+ src/components    |      98 |    94.44 |     100 |   97.91 |                   
+  ChangeType.tsx   |     100 |      100 |     100 |     100 |                   
+  Counter.tsx      |     100 |      100 |     100 |     100 |                   
+  CycleHoliday.tsx |     100 |      100 |     100 |     100 |                   
+  RevealAnswer.tsx |     100 |      100 |     100 |     100 |                   
+  StartAttempt.tsx |   88.88 |       75 |     100 |   88.88 | 9                 
+  TwoDice.tsx      |     100 |      100 |     100 |     100 |                   
+ src/interfaces    |       0 |        0 |       0 |       0 |                   
+  answer.ts        |       0 |        0 |       0 |       0 |                   
+  question.ts      |       0 |        0 |       0 |       0 |                   
+-------------------|---------|----------|---------|---------|-------------------
 
-Test Suites: 1 failed, 5 passed, 6 total
-Tests:       3 failed, 45 passed, 48 total
+Test Suites: 1 failed, 11 passed, 12 total
+Tests:       3 failed, 97 passed, 100 total
 Snapshots:   0 total
-Time:        4.082 s
+Time:        7.731 s
 Ran all test suites.
