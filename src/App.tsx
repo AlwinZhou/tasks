@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import { Button, Col, Container, Row } from "react-bootstrap";
 
 function App(): JSX.Element {
     return (
@@ -16,23 +15,10 @@ function App(): JSX.Element {
                     alt="A picture of Republic of China"
                 />
             </header>
-            <Container>
-                <Row>
-                    <Col>
-                        First column.<div className="APP-renc"></div>
-                    </Col>
-                    <Col>
-                        Second column.<div className="APP-renc"></div>
-                    </Col>
-                </Row>
-            </Container>
-            <p>Ziyi Zhou</p>
-            Movie List:
-            <ul>
-                <li>catch me if you can</li>
-                <li>catch you if I can</li>
-                <li>catch her if he can</li>
-            </ul>
+            <p>
+                Edit <code>src/App.tsx</code> and save. This page will
+                automatically reload.
+            </p>
         </div>
     );
 }
