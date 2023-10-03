@@ -22,6 +22,23 @@ function App(): JSX.Element {
                     alt="A picture of Republic of China"
                 />
             </header>
+            <Container>
+                <Row>
+                    <Col>
+                        First column.<div className="APP-renc"></div>
+                    </Col>
+                    <Col>
+                        Second column.<div className="APP-renc"></div>
+                    </Col>
+                </Row>
+            </Container>
+            <p>Ziyi Zhou</p>
+            Movie List:
+            <ul>
+                <li>catch me if you can</li>
+                <li>catch you if I can</li>
+                <li>catch her if he can</li>
+            </ul>
             <hr></hr>
             <Counter></Counter>
             <hr />
