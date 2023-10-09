@@ -41,10 +41,8 @@ function App(): JSX.Element {
             <ul>
                 <li>catch me if you can</li>
                 <li>catch you if I can</li>
-                <li>catch her if he can</li>
+                <li>catch her if heeeeq can</li>
             </ul>
-            <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
@@ -53,6 +51,8 @@ function App(): JSX.Element {
             <ShoveBox></ShoveBox>
             <hr></hr>
             <Counter></Counter>
+            <hr />
+            <DoubleHalf></DoubleHalf>
             <hr />
             <RevealAnswer></RevealAnswer>
             <hr />
