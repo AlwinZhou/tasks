@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { ChangeType } from "./components/ChangeType";
 import { RevealAnswer } from "./components/RevealAnswer";
 import { StartAttempt } from "./components/StartAttempt";
@@ -16,7 +17,6 @@ import { GiveAttempts } from "./form-components/GiveAttempts";
 import { EditMode } from "./form-components/EditMode";
 import { MultipleChoiceQuestion } from "./form-components/MultipleChoiceQuestion";
 import { ChangeColor } from "./form-components/ChangeColor";
-import { Button } from "react-bootstrap";
 
 function App(): JSX.Element {
     return (
@@ -32,26 +32,23 @@ function App(): JSX.Element {
                     alt="A picture of Republic of China"
                 />
             </header>
-
-            <p>
-                Edit <code>src/App.tsx</code> and save. This page will
-                automatically reload.
-            </p>
-            <hr></hr>
-            <CheckAnswer expectedAnswer="42"></CheckAnswer>
-            <hr></hr>
-            <GiveAttempts></GiveAttempts>
-            <hr></hr>
-            <EditMode></EditMode>
-            <hr></hr>
-            <ChangeColor></ChangeColor>
-            <hr></hr>
-            <MultipleChoiceQuestion
-                options={["a", "b", "c"]}
-                expectedAnswer="b"
-            ></MultipleChoiceQuestion>
-            <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            <Container>
+                <Row>
+                    <Col>
+                        First column.<div className="APP-renc"></div>
+                    </Col>
+                    <Col>
+                        Second column.<div className="APP-renc"></div>
+                    </Col>
+                </Row>
+            </Container>
+            <p>Ziyi Zhou</p>
+            Movie List:
+            <ul>
+                <li>catch me if you can</li>
+                <li>catch you if I can</li>
+                <li>catch her if heeeeq can</li>
+            </ul>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
@@ -60,6 +57,8 @@ function App(): JSX.Element {
             <ShoveBox></ShoveBox>
             <hr></hr>
             <Counter></Counter>
+            <hr />
+            <DoubleHalf></DoubleHalf>
             <hr />
             <RevealAnswer></RevealAnswer>
             <hr />
