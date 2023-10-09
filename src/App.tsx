@@ -1,5 +1,12 @@
 import React from "react";
 import "./App.css";
+import { Button, Col, Container, Row } from "react-bootstrap";
+import { ChangeType } from "./components/ChangeType";
+import { RevealAnswer } from "./components/RevealAnswer";
+import { StartAttempt } from "./components/StartAttempt";
+import { TwoDice } from "./components/TwoDice";
+import { CycleHoliday } from "./components/CycleHoliday";
+import { Counter } from "./components/Counter";
 
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { ChangeType } from "./components/ChangeType";
