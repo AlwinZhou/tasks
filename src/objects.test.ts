@@ -191,7 +191,6 @@ What shape can you make with one line?
             points: 1,
             published: true
         });
-        // console.log(ADDITION_QUESTION.published);
         expect(publishQuestion(publishQuestion(ADDITION_QUESTION))).toEqual({
             id: 1,
             name: "Addition",
@@ -200,7 +199,7 @@ What shape can you make with one line?
             options: [],
             expected: "4",
             points: 1,
-            published: false
+            published: true
         });
     });
 

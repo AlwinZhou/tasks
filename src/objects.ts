@@ -73,7 +73,7 @@ export function toShortForm(question: Question): string {
 
 /**
  * Consumes a question and returns a formatted string representation as follows:
- *  - The first line should be a hash sign, a space, and then the `name`
+ *  - The first line should be a hash sign, a space, and then the `name`: # question.name
  *  - The second line should be the `body`
  *  - If the question is a `multiple_choice_question`, then the following lines
  *      need to show each option on its line, preceded by a dash and space.
@@ -104,9 +104,7 @@ export function toMarkdown(question: Question): string {
  * `newName`.
  */
 export function renameQuestion(question: Question, newName: string): Question {
-    question.name = newName;
-    // console.log(question);
-    return question;
+    return { ...question, name: newName };
 }
 
 /**
@@ -115,8 +113,7 @@ export function renameQuestion(question: Question, newName: string): Question {
  * published; if it was published, now it should be not published.
  */
 export function publishQuestion(question: Question): Question {
-    question.published = !question.published;
-    return question;
+    return { ...question, published: !question.published };
 }
 
 /**
@@ -134,6 +131,7 @@ export function duplicateQuestion(id: number, oldQuestion: Question): Question {
     };
     return oldQuestion;
 }
+
 /**
  * Return a new version of the given question, with the `newOption` added to
  * the list of existing `options`. Remember that the new Question MUST have
