@@ -98,6 +98,7 @@ FAIL src/objects.test.ts
 
 PASS src/components/StartAttempt.test.tsx
 PASS src/components/TwoDice.test.tsx
+PASS src/form-components/MultipleChoiceQuestion.test.tsx
 PASS src/bad-components/ChooseTeam.test.tsx
 PASS src/bad-components/DoubleHalf.test.tsx
 FAIL src/HtmlCss.test.tsx
@@ -109,8 +110,38 @@ FAIL src/HtmlCss.test.tsx
 
     Ignored nodes: comments, <script />, <style />
     [36m<h1>[39m
-      [0mRepublic of China[0m
+      [0mHome Page[0m
     [36m</h1>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mCheck Answer[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mGive Attempts[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mEdit Mode[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mMultiple Choice Question[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mChange Color[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mDouble Half[0m
+    [36m</h3>[39m
 
     Ignored nodes: comments, <script />, <style />
     [36m<h3>[39m
@@ -144,7 +175,7 @@ FAIL src/HtmlCss.test.tsx
             [33mclass[39m=[32m"App-header"[39m
           [36m>[39m
             [36m<h1>[39m
-              [0mRepublic of China[0m
+              [0mHome Page[0m
             [36m</h1>[39m
             [0mUD CISC275 with React Hooks andTypeScript.[0m
             [36m<button[39m
@@ -158,45 +189,265 @@ FAIL src/HtmlCss.test.tsx
               [33msrc[39m=[32m"/Users/ziyizhou/Desktop/CISC275/TASKS-MAIN/tasks/src/Flag-Taiwan.webp"[39m
             [36m/>[39m
           [36m</header>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"container"[39m
-          [36m>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mCheck Answer[0m
+            [36m</h3>[39m
+            [36m<input[39m
+              [33mtype[39m=[32m"text"[39m
+              [33mvalue[39m=[32m""[39m
+            [36m/>[39m
+            [0m❌[0m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mGive Attempts[0m
+            [36m</h3>[39m
+            [36m<p>[39m
+              [0mAttempts Left: [0m
+              [0m3[0m
+            [36m</p>[39m
+            [36m<input[39m
+              [33mplaceholder[39m=[32m"Requested Attempts"[39m
+              [33mtype[39m=[32m"number"[39m
+              [33mvalue[39m=[32m"0"[39m
+            [36m/>[39m
+            [36m<button>[39m
+              [0mUse Attempt[0m
+            [36m</button>[39m
+            [36m<button>[39m
+              [0mGain Attempt[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mEdit Mode[0m
+            [36m</h3>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"row"[39m
+              [33mclass[39m=[32m"form-check form-switch"[39m
             [36m>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"col"[39m
+              [36m<input[39m
+                [33mclass[39m=[32m"form-check-input"[39m
+                [33mid[39m=[32m"is-in-edit-mode"[39m
+                [33mtype[39m=[32m"checkbox"[39m
+              [36m/>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"form-check-label"[39m
+                [33mfor[39m=[32m"is-in-edit-mode"[39m
+                [33mtitle[39m=[32m""[39m
               [36m>[39m
-                [0mFirst column.[0m
-                [36m<div[39m
-                  [33mclass[39m=[32m"APP-renc"[39m
-                [36m/>[39m
-              [36m</div>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"col"[39m
-              [36m>[39m
-                [0mSecond column.[0m
-                [36m<div[39m
-                  [33mclass[39m=[32m"APP-renc"[39m
-                [36m/>[39m
-              [36m</div>[39m
+                [0mEdit Mode[0m
+              [36m</label>[39m
+            [36m</div>[39m
+            [36m<div>[39m
+              [0mYour Name is a student[0m
             [36m</div>[39m
           [36m</div>[39m
-          [36m<p>[39m
-            [0mZiyi Zhou[0m
-          [36m</p>[39m
-          [0mMovie List:[0m
-          [36m<ul>[39m
-            [36m<li>[39m
-              [0mcatch me if you can[0m
-            [36m</li>[39m
-            [36m<li>[39m
-              [0mcatch you if I can[0m
-            [36m</li>[39m
-            [36m<li>[39m
-              [0mcatch her if heeeeq can[0m
-            [36m</li>[39m
-          [36m</ul>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mMultiple Choice Question[0m
+            [36m</h3>[39m
+            [36m<select[39m
+              [33mdata-testid[39m=[32m"choice-dropdown"[39m
+            [36m>[39m
+              [36m<option[39m
+                [33mvalue[39m=[32m"Option 1"[39m
+              [36m>[39m
+                [0mOption 1[0m
+              [36m</option>[39m
+              [36m<option[39m
+                [33mvalue[39m=[32m"Option 2"[39m
+              [36m>[39m
+                [0mOption 2[0m
+              [36m</option>[39m
+              [36m<option[39m
+                [33mvalue[39m=[32m"Option 3"[39m
+              [36m>[39m
+                [0mOption 3[0m
+              [36m</option>[39m
+            [36m</select>[39m
+            [0m❌[0m
+          [36m</div>[39m
+          [0m [0m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mChange Color[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mchecked[39m=[32m""[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"red"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"red"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"red"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mred[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"green"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"green"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"green"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mgreen[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"blue"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"blue"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"blue"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mblue[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"yellow"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"yellow"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0myellow[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"orange"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"orange"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"orange"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0morange[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"purple"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"purple"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"purple"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mpurple[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"pink"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"pink"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"pink"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mpink[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"teal"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"teal"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"teal"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mteal[0m
+                [36m</label>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"colored-box"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 10px; margin: 10px 0px; color: white;"[39m
+            [36m>[39m
+              [0mred[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
           [36m<hr />[39m
           [36m<div>[39m
             [36m<h3>[39m
@@ -487,43 +738,2701 @@ FAIL src/HtmlCss.test.tsx
       at getByRole (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
       at Object.<anonymous> (src/HtmlCss.test.tsx:9:31)
 
+  ● Some HTML Elements are added. › There is a list with at least three elements
+
+    TestingLibraryElementError: Unable to find an accessible element with the role "list"
+
+    Here are the accessible roles:
+
+      banner:
+
+      Name "":
+      [36m<header[39m
+        [33mclass[39m=[32m"App-header"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      heading:
+
+      Name "Home Page":
+      [36m<h1 />[39m
+
+      Name "Check Answer":
+      [36m<h3 />[39m
+
+      Name "Give Attempts":
+      [36m<h3 />[39m
+
+      Name "Edit Mode":
+      [36m<h3 />[39m
+
+      Name "Multiple Choice Question":
+      [36m<h3 />[39m
+
+      Name "Change Color":
+      [36m<h3 />[39m
+
+      Name "Double Half":
+      [36m<h3 />[39m
+
+      Name "Choose Team":
+      [36m<h3 />[39m
+
+      Name "Colored Box":
+      [36m<h3 />[39m
+
+      Name "Shove Box":
+      [36m<h3 />[39m
+
+      Name "Double Half":
+      [36m<h3 />[39m
+
+      --------------------------------------------------
+      button:
+
+      Name "Log Hello World":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Use Attempt":
+      [36m<button />[39m
+
+      Name "Gain Attempt":
+      [36m<button />[39m
+
+      Name "Double":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Halve":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Alan Turing":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Grace Hopper":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Ada Lovelace":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Charles Babbage":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Barbara Liskov":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Margaret Hamilton":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Clear Team":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Next Color":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Shove the Box":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Add One":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Double":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Halve":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Reveal Answer":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Start Quiz":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Stop Quiz":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mdisabled[39m=[32m""[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Mulligan":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Roll Left":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Roll Right":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Change Type":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Alphabet":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Year":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      img:
+
+      Name "A picture of Republic of China":
+      [36m<img[39m
+        [33malt[39m=[32m"A picture of Republic of China"[39m
+        [33msrc[39m=[32m"/Users/ziyizhou/Desktop/CISC275/TASKS-MAIN/tasks/src/Flag-Taiwan.webp"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      separator:
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      --------------------------------------------------
+      textbox:
+
+      Name "":
+      [36m<input[39m
+        [33mtype[39m=[32m"text"[39m
+        [33mvalue[39m=[32m""[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      spinbutton:
+
+      Name "":
+      [36m<input[39m
+        [33mplaceholder[39m=[32m"Requested Attempts"[39m
+        [33mtype[39m=[32m"number"[39m
+        [33mvalue[39m=[32m"0"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      checkbox:
+
+      Name "Edit Mode":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"is-in-edit-mode"[39m
+        [33mtype[39m=[32m"checkbox"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      combobox:
+
+      Name "":
+      [36m<select[39m
+        [33mdata-testid[39m=[32m"choice-dropdown"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      option:
+
+      Name "Option 1":
+      [36m<option[39m
+        [33mvalue[39m=[32m"Option 1"[39m
+      [36m/>[39m
+
+      Name "Option 2":
+      [36m<option[39m
+        [33mvalue[39m=[32m"Option 2"[39m
+      [36m/>[39m
+
+      Name "Option 3":
+      [36m<option[39m
+        [33mvalue[39m=[32m"Option 3"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      radio:
+
+      Name "red":
+      [36m<input[39m
+        [33mchecked[39m=[32m""[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"red"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"red"[39m
+      [36m/>[39m
+
+      Name "green":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"green"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"green"[39m
+      [36m/>[39m
+
+      Name "blue":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"blue"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"blue"[39m
+      [36m/>[39m
+
+      Name "yellow":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"yellow"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"yellow"[39m
+      [36m/>[39m
+
+      Name "orange":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"orange"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"orange"[39m
+      [36m/>[39m
+
+      Name "purple":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"purple"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"purple"[39m
+      [36m/>[39m
+
+      Name "pink":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"pink"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"pink"[39m
+      [36m/>[39m
+
+      Name "teal":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"teal"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"teal"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"App"[39m
+        [36m>[39m
+          [36m<header[39m
+            [33mclass[39m=[32m"App-header"[39m
+          [36m>[39m
+            [36m<h1>[39m
+              [0mHome Page[0m
+            [36m</h1>[39m
+            [0mUD CISC275 with React Hooks andTypeScript.[0m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mLog Hello World[0m
+            [36m</button>[39m
+            [36m<img[39m
+              [33malt[39m=[32m"A picture of Republic of China"[39m
+              [33msrc[39m=[32m"/Users/ziyizhou/Desktop/CISC275/TASKS-MAIN/tasks/src/Flag-Taiwan.webp"[39m
+            [36m/>[39m
+          [36m</header>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mCheck Answer[0m
+            [36m</h3>[39m
+            [36m<input[39m
+              [33mtype[39m=[32m"text"[39m
+              [33mvalue[39m=[32m""[39m
+            [36m/>[39m
+            [0m❌[0m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mGive Attempts[0m
+            [36m</h3>[39m
+            [36m<p>[39m
+              [0mAttempts Left: [0m
+              [0m3[0m
+            [36m</p>[39m
+            [36m<input[39m
+              [33mplaceholder[39m=[32m"Requested Attempts"[39m
+              [33mtype[39m=[32m"number"[39m
+              [33mvalue[39m=[32m"0"[39m
+            [36m/>[39m
+            [36m<button>[39m
+              [0mUse Attempt[0m
+            [36m</button>[39m
+            [36m<button>[39m
+              [0mGain Attempt[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mEdit Mode[0m
+            [36m</h3>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"form-check form-switch"[39m
+            [36m>[39m
+              [36m<input[39m
+                [33mclass[39m=[32m"form-check-input"[39m
+                [33mid[39m=[32m"is-in-edit-mode"[39m
+                [33mtype[39m=[32m"checkbox"[39m
+              [36m/>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"form-check-label"[39m
+                [33mfor[39m=[32m"is-in-edit-mode"[39m
+                [33mtitle[39m=[32m""[39m
+              [36m>[39m
+                [0mEdit Mode[0m
+              [36m</label>[39m
+            [36m</div>[39m
+            [36m<div>[39m
+              [0mYour Name is a student[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mMultiple Choice Question[0m
+            [36m</h3>[39m
+            [36m<select[39m
+              [33mdata-testid[39m=[32m"choice-dropdown"[39m
+            [36m>[39m
+              [36m<option[39m
+                [33mvalue[39m=[32m"Option 1"[39m
+              [36m>[39m
+                [0mOption 1[0m
+              [36m</option>[39m
+              [36m<option[39m
+                [33mvalue[39m=[32m"Option 2"[39m
+              [36m>[39m
+                [0mOption 2[0m
+              [36m</option>[39m
+              [36m<option[39m
+                [33mvalue[39m=[32m"Option 3"[39m
+              [36m>[39m
+                [0mOption 3[0m
+              [36m</option>[39m
+            [36m</select>[39m
+            [0m❌[0m
+          [36m</div>[39m
+          [0m [0m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mChange Color[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mchecked[39m=[32m""[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"red"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"red"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"red"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mred[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"green"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"green"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"green"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mgreen[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"blue"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"blue"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"blue"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mblue[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"yellow"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"yellow"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0myellow[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"orange"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"orange"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"orange"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0morange[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"purple"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"purple"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"purple"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mpurple[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"pink"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"pink"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"pink"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mpink[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"teal"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"teal"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"teal"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mteal[0m
+                [36m</label>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"colored-box"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 10px; margin: 10px 0px; color: white;"[39m
+            [36m>[39m
+              [0mred[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mChoose Team[0m
+            [36m</h3>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"row"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mAlan Turing[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mGrace Hopper[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mAda Lovelace[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mCharles Babbage[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mBarbara Liskov[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mMargaret Hamilton[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col"[39m
+              [36m>[39m
+                [36m<strong>[39m
+                  [0mTeam:[0m
+                [36m</strong>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mClear Team[0m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mColored Box[0m
+            [36m</h3>[39m
+            [36m<span>[39m
+              [0mThe current color is: [0m
+              [0mred[0m
+            [36m</span>[39m
+            [36m<div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mNext Color[0m
+              [36m</button>[39m
+              [36m<div[39m
+                [33mdata-testid[39m=[32m"colored-box"[39m
+                [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; display: inline-block; vertical-align: bottom; margin-left: 5px;"[39m
+              [36m/>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mShove Box[0m
+            [36m</h3>[39m
+            [36m<span>[39m
+              [0mThe box is at: [0m
+              [0m10[0m
+              [0mpx[0m
+            [36m</span>[39m
+            [36m<div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mShove the Box[0m
+              [36m</button>[39m
+              [36m<div[39m
+                [33mdata-testid[39m=[32m"moveable-box"[39m
+                [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: lightblue; border: 1px solid blue; display: inline-block; vertical-align: bottom; margin-left: 10px;"[39m
+              [36m/>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<span>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mAdd One[0m
+            [36m</button>[39m
+            [0mto [0m
+            [0m0[0m
+            [0m.[0m
+          [36m</span>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mReveal Answer[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mStart Quiz[0m
+              [0m [0m
+            [36m</button>[39m
+            [0m4[0m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mdisabled[39m=[32m""[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mStop Quiz[0m
+              [0m [0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mMulligan[0m
+              [0m [0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mRoll Left[0m
+            [36m</button>[39m
+            [36m<span[39m
+              [33mdata-testid[39m=[32m"left-die"[39m
+            [36m>[39m
+              [0m1[0m
+            [36m</span>[39m
+            [0m [0m
+            [0m[0m
+            [0m [0m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mRoll Right[0m
+            [36m</button>[39m
+            [36m<span[39m
+              [33mdata-testid[39m=[32m"right-die"[39m
+            [36m>[39m
+              [0m2[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mChange Type[0m
+            [36m</button>[39m
+            [0mShort Answer[0m
+            [0mshort_answer_question[0m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mAlphabet[0m
+            [36m</button>[39m
+            [0mHoliday: [0m
+            [0m🎃[0m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mYear[0m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      20 |     test("There is a list with at least three elements", () => {
+      21 |         render(<App />);
+    > 22 |         const list = screen.getByRole("list");
+         |                             ^
+      23 |         expect(list).toBeInTheDocument();
+      24 |         expect(list.children.length).toBeGreaterThanOrEqual(3);
+      25 |     });
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/HtmlCss.test.tsx:22:29)
+
 PASS src/functions.test.ts
+PASS src/form-components/CheckAnswer.test.tsx
+PASS src/form-components/EditMode.test.tsx
 PASS src/components/ChangeType.test.tsx
 PASS src/components/CycleHoliday.test.tsx
+PASS src/form-components/GiveAttempts.test.tsx
+PASS src/form-components/ChangeColor.test.tsx
 PASS src/components/Counter.test.tsx
 PASS src/components/RevealAnswer.test.tsx
 PASS src/bad-components/ColoredBox.test.tsx
 PASS src/bad-components/ShoveBox.test.tsx
 PASS src/App.test.tsx
---------------------|---------|----------|---------|---------|-------------------
-File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
---------------------|---------|----------|---------|---------|-------------------
-All files           |    99.2 |     93.5 |     100 |   99.17 |                   
- src                |   99.41 |    94.73 |     100 |   99.38 |                   
-  App.tsx           |     100 |      100 |     100 |     100 |                   
-  arrays.ts         |     100 |      100 |     100 |     100 |                   
-  functions.ts      |     100 |      100 |     100 |     100 |                   
-  nested.ts         |     100 |    89.47 |     100 |     100 | 210,272           
-  objects.ts        |   96.96 |       90 |     100 |   96.96 | 56                
- src/bad-components |     100 |       50 |     100 |     100 |                   
-  ChooseTeam.tsx    |     100 |       50 |     100 |     100 | 18                
-  ColoredBox.tsx    |     100 |      100 |     100 |     100 |                   
-  DoubleHalf.tsx    |     100 |      100 |     100 |     100 |                   
-  ShoveBox.tsx      |     100 |      100 |     100 |     100 |                   
- src/components     |      98 |    94.44 |     100 |   97.91 |                   
-  ChangeType.tsx    |     100 |      100 |     100 |     100 |                   
-  Counter.tsx       |     100 |      100 |     100 |     100 |                   
-  CycleHoliday.tsx  |     100 |      100 |     100 |     100 |                   
-  RevealAnswer.tsx  |     100 |      100 |     100 |     100 |                   
-  StartAttempt.tsx  |   88.88 |       75 |     100 |   88.88 | 9                 
-  TwoDice.tsx       |     100 |      100 |     100 |     100 |                   
- src/interfaces     |       0 |        0 |       0 |       0 |                   
-  answer.ts         |       0 |        0 |       0 |       0 |                   
-  question.ts       |       0 |        0 |       0 |       0 |                   
---------------------|---------|----------|---------|---------|-------------------
+-----------------------------|---------|----------|---------|---------|-------------------
+File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------------|---------|----------|---------|---------|-------------------
+All files                    |    99.3 |     93.4 |     100 |   99.27 |                   
+ src                         |   99.41 |    94.73 |     100 |   99.38 |                   
+  App.tsx                    |     100 |      100 |     100 |     100 |                   
+  arrays.ts                  |     100 |      100 |     100 |     100 |                   
+  functions.ts               |     100 |      100 |     100 |     100 |                   
+  nested.ts                  |     100 |    89.47 |     100 |     100 | 210,272           
+  objects.ts                 |   96.96 |       90 |     100 |   96.96 | 56                
+ src/bad-components          |     100 |       50 |     100 |     100 |                   
+  ChooseTeam.tsx             |     100 |       50 |     100 |     100 | 18                
+  ColoredBox.tsx             |     100 |      100 |     100 |     100 |                   
+  DoubleHalf.tsx             |     100 |      100 |     100 |     100 |                   
+  ShoveBox.tsx               |     100 |      100 |     100 |     100 |                   
+ src/components              |      98 |    94.44 |     100 |   97.91 |                   
+  ChangeType.tsx             |     100 |      100 |     100 |     100 |                   
+  Counter.tsx                |     100 |      100 |     100 |     100 |                   
+  CycleHoliday.tsx           |     100 |      100 |     100 |     100 |                   
+  RevealAnswer.tsx           |     100 |      100 |     100 |     100 |                   
+  StartAttempt.tsx           |   88.88 |       75 |     100 |   88.88 | 9                 
+  TwoDice.tsx                |     100 |      100 |     100 |     100 |                   
+ src/form-components         |     100 |    92.85 |     100 |     100 |                   
+  ChangeColor.tsx            |     100 |      100 |     100 |     100 |                   
+  CheckAnswer.tsx            |     100 |      100 |     100 |     100 |                   
+  EditMode.tsx               |     100 |      100 |     100 |     100 |                   
+  GiveAttempts.tsx           |     100 |    83.33 |     100 |     100 | 8                 
+  MultipleChoiceQuestion.tsx |     100 |      100 |     100 |     100 |                   
+ src/interfaces              |       0 |        0 |       0 |       0 |                   
+  answer.ts                  |       0 |        0 |       0 |       0 |                   
+  question.ts                |       0 |        0 |       0 |       0 |                   
+-----------------------------|---------|----------|---------|---------|-------------------
 
-Test Suites: 2 failed, 14 passed, 16 total
-Tests:       4 failed, 113 passed, 117 total
+Summary of all failing tests
+FAIL src/objects.test.ts
+  ● Testing the object functions › Testing the publishQuestion function
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "body": "What is 2+2?",
+        "expected": "4",
+        "id": 1,
+    -   "name": "Addition",
+    +   "name": "My Addition Question",
+        "options": Array [],
+        "points": 1,
+        "published": false,
+        "type": "short_answer_question",
+      }
+
+      172 |     // publishQuestion
+      173 |     test("Testing the publishQuestion function", () => {
+    > 174 |         expect(publishQuestion(ADDITION_QUESTION)).toEqual({
+          |                                                    ^
+      175 |             id: 1,
+      176 |             name: "Addition",
+      177 |             body: "What is 2+2?",
+
+      at Object.<anonymous> (src/objects.test.ts:174:52)
+
+  ● Testing the object functions › Testing the duplicateQuestion function
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "body": "What is 2+2?",
+        "expected": "4",
+        "id": 9,
+    -   "name": "Copy of Addition",
+    +   "name": "Copy of My Addition Question",
+        "options": Array [],
+        "points": 1,
+        "published": false,
+        "type": "short_answer_question",
+      }
+
+      208 |     // duplicateQuestion
+      209 |     test("Testing the duplicateQuestion function", () => {
+    > 210 |         expect(duplicateQuestion(9, ADDITION_QUESTION)).toEqual({
+          |                                                         ^
+      211 |             id: 9,
+      212 |             name: "Copy of Addition",
+      213 |             body: "What is 2+2?",
+
+      at Object.<anonymous> (src/objects.test.ts:210:57)
+
+  ● Testing the object functions › Testing the addOption function
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 1
+
+    @@ -1,10 +1,10 @@
+      Object {
+        "body": "What shape can you make with one line?",
+        "expected": "circle",
+        "id": 9,
+    -   "name": "Shapes",
+    +   "name": "I COMPLETELY CHANGED THIS NAME",
+        "options": Array [
+          "square",
+          "triangle",
+          "circle",
+          "heptagon",
+
+      233 |     // addOption
+      234 |     test("Testing the addOption function", () => {
+    > 235 |         expect(addOption(SHAPE_QUESTION, "heptagon")).toEqual({
+          |                                                       ^
+      236 |             id: 9,
+      237 |             name: "Shapes",
+      238 |             body: "What shape can you make with one line?",
+
+      at Object.<anonymous> (src/objects.test.ts:235:55)
+
+FAIL src/HtmlCss.test.tsx
+  ● Some HTML Elements are added. › There is a header
+
+    TestingLibraryElementError: Found multiple elements with the role "heading"
+
+    Here are the matching elements:
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h1>[39m
+      [0mHome Page[0m
+    [36m</h1>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mCheck Answer[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mGive Attempts[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mEdit Mode[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mMultiple Choice Question[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mChange Color[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mDouble Half[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mChoose Team[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mColored Box[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mShove Box[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mDouble Half[0m
+    [36m</h3>[39m
+
+    (If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"App"[39m
+        [36m>[39m
+          [36m<header[39m
+            [33mclass[39m=[32m"App-header"[39m
+          [36m>[39m
+            [36m<h1>[39m
+              [0mHome Page[0m
+            [36m</h1>[39m
+            [0mUD CISC275 with React Hooks andTypeScript.[0m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mLog Hello World[0m
+            [36m</button>[39m
+            [36m<img[39m
+              [33malt[39m=[32m"A picture of Republic of China"[39m
+              [33msrc[39m=[32m"/Users/ziyizhou/Desktop/CISC275/TASKS-MAIN/tasks/src/Flag-Taiwan.webp"[39m
+            [36m/>[39m
+          [36m</header>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mCheck Answer[0m
+            [36m</h3>[39m
+            [36m<input[39m
+              [33mtype[39m=[32m"text"[39m
+              [33mvalue[39m=[32m""[39m
+            [36m/>[39m
+            [0m❌[0m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mGive Attempts[0m
+            [36m</h3>[39m
+            [36m<p>[39m
+              [0mAttempts Left: [0m
+              [0m3[0m
+            [36m</p>[39m
+            [36m<input[39m
+              [33mplaceholder[39m=[32m"Requested Attempts"[39m
+              [33mtype[39m=[32m"number"[39m
+              [33mvalue[39m=[32m"0"[39m
+            [36m/>[39m
+            [36m<button>[39m
+              [0mUse Attempt[0m
+            [36m</button>[39m
+            [36m<button>[39m
+              [0mGain Attempt[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mEdit Mode[0m
+            [36m</h3>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"form-check form-switch"[39m
+            [36m>[39m
+              [36m<input[39m
+                [33mclass[39m=[32m"form-check-input"[39m
+                [33mid[39m=[32m"is-in-edit-mode"[39m
+                [33mtype[39m=[32m"checkbox"[39m
+              [36m/>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"form-check-label"[39m
+                [33mfor[39m=[32m"is-in-edit-mode"[39m
+                [33mtitle[39m=[32m""[39m
+              [36m>[39m
+                [0mEdit Mode[0m
+              [36m</label>[39m
+            [36m</div>[39m
+            [36m<div>[39m
+              [0mYour Name is a student[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mMultiple Choice Question[0m
+            [36m</h3>[39m
+            [36m<select[39m
+              [33mdata-testid[39m=[32m"choice-dropdown"[39m
+            [36m>[39m
+              [36m<option[39m
+                [33mvalue[39m=[32m"Option 1"[39m
+              [36m>[39m
+                [0mOption 1[0m
+              [36m</option>[39m
+              [36m<option[39m
+                [33mvalue[39m=[32m"Option 2"[39m
+              [36m>[39m
+                [0mOption 2[0m
+              [36m</option>[39m
+              [36m<option[39m
+                [33mvalue[39m=[32m"Option 3"[39m
+              [36m>[39m
+                [0mOption 3[0m
+              [36m</option>[39m
+            [36m</select>[39m
+            [0m❌[0m
+          [36m</div>[39m
+          [0m [0m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mChange Color[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mchecked[39m=[32m""[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"red"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"red"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"red"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mred[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"green"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"green"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"green"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mgreen[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"blue"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"blue"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"blue"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mblue[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"yellow"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"yellow"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0myellow[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"orange"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"orange"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"orange"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0morange[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"purple"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"purple"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"purple"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mpurple[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"pink"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"pink"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"pink"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mpink[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"teal"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"teal"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"teal"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mteal[0m
+                [36m</label>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"colored-box"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 10px; margin: 10px 0px; color: white;"[39m
+            [36m>[39m
+              [0mred[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mChoose Team[0m
+            [36m</h3>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"row"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mAlan Turing[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mGrace Hopper[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mAda Lovelace[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mCharles Babbage[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mBarbara Liskov[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mMargaret Hamilton[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col"[39m
+              [36m>[39m
+                [36m<strong>[39m
+                  [0mTeam:[0m
+                [36m</strong>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mClear Team[0m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mColored Box[0m
+            [36m</h3>[39m
+            [36m<span>[39m
+              [0mThe current color is: [0m
+              [0mred[0m
+            [36m</span>[39m
+            [36m<div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mNext Color[0m
+              [36m</button>[39m
+              [36m<div[39m
+                [33mdata-testid[39m=[32m"colored-box"[39m
+                [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; display: inline-block; vertical-align: bottom; margin-left: 5px;"[39m
+              [36m/>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mShove Box[0m
+            [36m</h3>[39m
+            [36m<span>[39m
+              [0mThe box is at: [0m
+              [0m10[0m
+              [0mpx[0m
+            [36m</span>[39m
+            [36m<div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mShove the Box[0m
+              [36m</button>[39m
+              [36m<div[39m
+                [33mdata-testid[39m=[32m"moveable-box"[39m
+                [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: lightblue; border: 1px solid blue; display: inline-block; vertical-align: bottom; margin-left: 10px;"[39m
+              [36m/>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<span>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mAdd One[0m
+            [36m</button>[39m
+            [0mto [0m
+            [0m0[0m
+            [0m.[0m
+          [36m</span>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mReveal Answer[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mStart Quiz[0m
+              [0m [0m
+            [36m</button>[39m
+            [0m4[0m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mdisabled[39m=[32m""[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mStop Quiz[0m
+              [0m [0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mMulligan[0m
+              [0m [0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mRoll Left[0m
+            [36m</button>[39m
+            [36m<span[39m
+              [33mdata-testid[39m=[32m"left-die"[39m
+            [36m>[39m
+              [0m1[0m
+            [36m</span>[39m
+            [0m [0m
+            [0m[0m
+            [0m [0m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mRoll Right[0m
+            [36m</button>[39m
+            [36m<span[39m
+              [33mdata-testid[39m=[32m"right-die"[39m
+            [36m>[39m
+              [0m2[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mChange Type[0m
+            [36m</button>[39m
+            [0mShort Answer[0m
+            [0mshort_answer_question[0m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mAlphabet[0m
+            [36m</button>[39m
+            [0mHoliday: [0m
+            [0m��[0m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mYear[0m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+       7 |     test("There is a header", () => {
+       8 |         render(<App />);
+    >  9 |         const header = screen.getByRole("heading");
+         |                               ^
+      10 |         expect(header).toBeInTheDocument();
+      11 |     });
+      12 |
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at getElementError (node_modules/@testing-library/dom/dist/query-helpers.js:25:35)
+      at getMultipleElementsFoundError (node_modules/@testing-library/dom/dist/query-helpers.js:29:10)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:66:13
+      at getByRole (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/HtmlCss.test.tsx:9:31)
+
+  ● Some HTML Elements are added. › There is a list with at least three elements
+
+    TestingLibraryElementError: Unable to find an accessible element with the role "list"
+
+    Here are the accessible roles:
+
+      banner:
+
+      Name "":
+      [36m<header[39m
+        [33mclass[39m=[32m"App-header"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      heading:
+
+      Name "Home Page":
+      [36m<h1 />[39m
+
+      Name "Check Answer":
+      [36m<h3 />[39m
+
+      Name "Give Attempts":
+      [36m<h3 />[39m
+
+      Name "Edit Mode":
+      [36m<h3 />[39m
+
+      Name "Multiple Choice Question":
+      [36m<h3 />[39m
+
+      Name "Change Color":
+      [36m<h3 />[39m
+
+      Name "Double Half":
+      [36m<h3 />[39m
+
+      Name "Choose Team":
+      [36m<h3 />[39m
+
+      Name "Colored Box":
+      [36m<h3 />[39m
+
+      Name "Shove Box":
+      [36m<h3 />[39m
+
+      Name "Double Half":
+      [36m<h3 />[39m
+
+      --------------------------------------------------
+      button:
+
+      Name "Log Hello World":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Use Attempt":
+      [36m<button />[39m
+
+      Name "Gain Attempt":
+      [36m<button />[39m
+
+      Name "Double":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Halve":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Alan Turing":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Grace Hopper":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Ada Lovelace":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Charles Babbage":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Barbara Liskov":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Margaret Hamilton":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Clear Team":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Next Color":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Shove the Box":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Add One":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Double":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Halve":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Reveal Answer":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Start Quiz":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Stop Quiz":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mdisabled[39m=[32m""[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Mulligan":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Roll Left":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Roll Right":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Change Type":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Alphabet":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Year":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      img:
+
+      Name "A picture of Republic of China":
+      [36m<img[39m
+        [33malt[39m=[32m"A picture of Republic of China"[39m
+        [33msrc[39m=[32m"/Users/ziyizhou/Desktop/CISC275/TASKS-MAIN/tasks/src/Flag-Taiwan.webp"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      separator:
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      Name "":
+      [36m<hr />[39m
+
+      --------------------------------------------------
+      textbox:
+
+      Name "":
+      [36m<input[39m
+        [33mtype[39m=[32m"text"[39m
+        [33mvalue[39m=[32m""[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      spinbutton:
+
+      Name "":
+      [36m<input[39m
+        [33mplaceholder[39m=[32m"Requested Attempts"[39m
+        [33mtype[39m=[32m"number"[39m
+        [33mvalue[39m=[32m"0"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      checkbox:
+
+      Name "Edit Mode":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"is-in-edit-mode"[39m
+        [33mtype[39m=[32m"checkbox"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      combobox:
+
+      Name "":
+      [36m<select[39m
+        [33mdata-testid[39m=[32m"choice-dropdown"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      option:
+
+      Name "Option 1":
+      [36m<option[39m
+        [33mvalue[39m=[32m"Option 1"[39m
+      [36m/>[39m
+
+      Name "Option 2":
+      [36m<option[39m
+        [33mvalue[39m=[32m"Option 2"[39m
+      [36m/>[39m
+
+      Name "Option 3":
+      [36m<option[39m
+        [33mvalue[39m=[32m"Option 3"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      radio:
+
+      Name "red":
+      [36m<input[39m
+        [33mchecked[39m=[32m""[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"red"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"red"[39m
+      [36m/>[39m
+
+      Name "green":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"green"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"green"[39m
+      [36m/>[39m
+
+      Name "blue":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"blue"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"blue"[39m
+      [36m/>[39m
+
+      Name "yellow":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"yellow"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"yellow"[39m
+      [36m/>[39m
+
+      Name "orange":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"orange"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"orange"[39m
+      [36m/>[39m
+
+      Name "purple":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"purple"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"purple"[39m
+      [36m/>[39m
+
+      Name "pink":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"pink"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"pink"[39m
+      [36m/>[39m
+
+      Name "teal":
+      [36m<input[39m
+        [33mclass[39m=[32m"form-check-input"[39m
+        [33mid[39m=[32m"teal"[39m
+        [33mtype[39m=[32m"radio"[39m
+        [33mvalue[39m=[32m"teal"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"App"[39m
+        [36m>[39m
+          [36m<header[39m
+            [33mclass[39m=[32m"App-header"[39m
+          [36m>[39m
+            [36m<h1>[39m
+              [0mHome Page[0m
+            [36m</h1>[39m
+            [0mUD CISC275 with React Hooks andTypeScript.[0m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mLog Hello World[0m
+            [36m</button>[39m
+            [36m<img[39m
+              [33malt[39m=[32m"A picture of Republic of China"[39m
+              [33msrc[39m=[32m"/Users/ziyizhou/Desktop/CISC275/TASKS-MAIN/tasks/src/Flag-Taiwan.webp"[39m
+            [36m/>[39m
+          [36m</header>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mCheck Answer[0m
+            [36m</h3>[39m
+            [36m<input[39m
+              [33mtype[39m=[32m"text"[39m
+              [33mvalue[39m=[32m""[39m
+            [36m/>[39m
+            [0m❌[0m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mGive Attempts[0m
+            [36m</h3>[39m
+            [36m<p>[39m
+              [0mAttempts Left: [0m
+              [0m3[0m
+            [36m</p>[39m
+            [36m<input[39m
+              [33mplaceholder[39m=[32m"Requested Attempts"[39m
+              [33mtype[39m=[32m"number"[39m
+              [33mvalue[39m=[32m"0"[39m
+            [36m/>[39m
+            [36m<button>[39m
+              [0mUse Attempt[0m
+            [36m</button>[39m
+            [36m<button>[39m
+              [0mGain Attempt[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mEdit Mode[0m
+            [36m</h3>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"form-check form-switch"[39m
+            [36m>[39m
+              [36m<input[39m
+                [33mclass[39m=[32m"form-check-input"[39m
+                [33mid[39m=[32m"is-in-edit-mode"[39m
+                [33mtype[39m=[32m"checkbox"[39m
+              [36m/>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"form-check-label"[39m
+                [33mfor[39m=[32m"is-in-edit-mode"[39m
+                [33mtitle[39m=[32m""[39m
+              [36m>[39m
+                [0mEdit Mode[0m
+              [36m</label>[39m
+            [36m</div>[39m
+            [36m<div>[39m
+              [0mYour Name is a student[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mMultiple Choice Question[0m
+            [36m</h3>[39m
+            [36m<select[39m
+              [33mdata-testid[39m=[32m"choice-dropdown"[39m
+            [36m>[39m
+              [36m<option[39m
+                [33mvalue[39m=[32m"Option 1"[39m
+              [36m>[39m
+                [0mOption 1[0m
+              [36m</option>[39m
+              [36m<option[39m
+                [33mvalue[39m=[32m"Option 2"[39m
+              [36m>[39m
+                [0mOption 2[0m
+              [36m</option>[39m
+              [36m<option[39m
+                [33mvalue[39m=[32m"Option 3"[39m
+              [36m>[39m
+                [0mOption 3[0m
+              [36m</option>[39m
+            [36m</select>[39m
+            [0m❌[0m
+          [36m</div>[39m
+          [0m [0m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mChange Color[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mchecked[39m=[32m""[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"red"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"red"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"red"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mred[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"green"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"green"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"green"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mgreen[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"blue"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"blue"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"blue"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mblue[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"yellow"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"yellow"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0myellow[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"orange"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"orange"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"orange"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0morange[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"purple"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"purple"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"purple"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mpurple[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"pink"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"pink"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"pink"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mpink[0m
+                [36m</label>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-check-input"[39m
+                  [33mid[39m=[32m"teal"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                  [33mvalue[39m=[32m"teal"[39m
+                [36m/>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-check-label"[39m
+                  [33mfor[39m=[32m"teal"[39m
+                  [33mtitle[39m=[32m""[39m
+                [36m>[39m
+                  [0mteal[0m
+                [36m</label>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"colored-box"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 10px; margin: 10px 0px; color: white;"[39m
+            [36m>[39m
+              [0mred[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mChoose Team[0m
+            [36m</h3>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"row"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mAlan Turing[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mGrace Hopper[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mAda Lovelace[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mCharles Babbage[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mBarbara Liskov[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4px;"[39m
+                [36m>[39m
+                  [0mAdd[0m
+                  [0m [0m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary btn-sm"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mMargaret Hamilton[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col"[39m
+              [36m>[39m
+                [36m<strong>[39m
+                  [0mTeam:[0m
+                [36m</strong>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mClear Team[0m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mColored Box[0m
+            [36m</h3>[39m
+            [36m<span>[39m
+              [0mThe current color is: [0m
+              [0mred[0m
+            [36m</span>[39m
+            [36m<div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mNext Color[0m
+              [36m</button>[39m
+              [36m<div[39m
+                [33mdata-testid[39m=[32m"colored-box"[39m
+                [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; display: inline-block; vertical-align: bottom; margin-left: 5px;"[39m
+              [36m/>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mShove Box[0m
+            [36m</h3>[39m
+            [36m<span>[39m
+              [0mThe box is at: [0m
+              [0m10[0m
+              [0mpx[0m
+            [36m</span>[39m
+            [36m<div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mShove the Box[0m
+              [36m</button>[39m
+              [36m<div[39m
+                [33mdata-testid[39m=[32m"moveable-box"[39m
+                [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: lightblue; border: 1px solid blue; display: inline-block; vertical-align: bottom; margin-left: 10px;"[39m
+              [36m/>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<span>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mAdd One[0m
+            [36m</button>[39m
+            [0mto [0m
+            [0m0[0m
+            [0m.[0m
+          [36m</span>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mReveal Answer[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mStart Quiz[0m
+              [0m [0m
+            [36m</button>[39m
+            [0m4[0m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mdisabled[39m=[32m""[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mStop Quiz[0m
+              [0m [0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mMulligan[0m
+              [0m [0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mRoll Left[0m
+            [36m</button>[39m
+            [36m<span[39m
+              [33mdata-testid[39m=[32m"left-die"[39m
+            [36m>[39m
+              [0m1[0m
+            [36m</span>[39m
+            [0m [0m
+            [0m[0m
+            [0m [0m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mRoll Right[0m
+            [36m</button>[39m
+            [36m<span[39m
+              [33mdata-testid[39m=[32m"right-die"[39m
+            [36m>[39m
+              [0m2[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mChange Type[0m
+            [36m</button>[39m
+            [0mShort Answer[0m
+            [0mshort_answer_question[0m
+          [36m</div>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mAlphabet[0m
+            [36m</button>[39m
+            [0mHoliday: [0m
+            [0m��[0m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mYear[0m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      20 |     test("There is a list with at least three elements", () => {
+      21 |         render(<App />);
+    > 22 |         const list = screen.getByRole("list");
+         |                             ^
+      23 |         expect(list).toBeInTheDocument();
+      24 |         expect(list.children.length).toBeGreaterThanOrEqual(3);
+      25 |     });
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/HtmlCss.test.tsx:22:29)
+
+
+Test Suites: 2 failed, 19 passed, 21 total
+Tests:       5 failed, 136 passed, 141 total
 Snapshots:   0 total
-Time:        9.94 s
+Time:        17.927 s
 Ran all test suites.
