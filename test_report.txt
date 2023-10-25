@@ -3257,5 +3257,5 @@ FAIL src/HtmlCss.test.tsx
 Test Suites: 1 failed, 20 passed, 21 total
 Tests:       2 failed, 139 passed, 141 total
 Snapshots:   0 total
-Time:        16.705 s
+Time:        13.835 s
 Ran all test suites.
