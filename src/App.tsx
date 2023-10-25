@@ -38,6 +38,13 @@ function App(): JSX.Element {
             <hr></hr>
             <EditMode></EditMode>
             <hr></hr>
+            <MultipleChoiceQuestion
+                options={["Option 1", "Option 2", "Option 3"]}
+                expectedAnswer="Option 2"
+            />{" "}
+            <hr></hr>
+            <ChangeColor></ChangeColor>
+            <hr></hr>
             <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
