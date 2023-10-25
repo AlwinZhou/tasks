@@ -21,7 +21,7 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
-                <h1>Republic of China</h1>
+                <h1>Home Page</h1>
                 UD CISC275 with React Hooks andTypeScript.
                 <Button onClick={() => console.log("Hello World!")}>
                     Log Hello World
@@ -32,7 +32,13 @@ function App(): JSX.Element {
                 />
             </header>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            <CheckAnswer expectedAnswer="1" />
+            <hr></hr>
+            <GiveAttempts></GiveAttempts>
+            <hr></hr>
+            <EditMode></EditMode>
+            <hr></hr>
+            <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
